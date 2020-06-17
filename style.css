@@ -1,0 +1,37 @@
+
+body {
+    background-color: whitesmoke;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lavender;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavenderblush;
+    }
+  }
+          h1, p {
+              color: purple;
+          }
+          #masterpiece {
+          background-color: red;
+          }
+          .footer {
+             position: fixed;
+             left: 0;
+             bottom: 0;
+             width: 100%;
+             background-color: pink;
+             color: white;
+             text-align: center;
+          }
+          tr > th {
+            color: blue;
+          }
+          #title:hover {
+            background-color: seagreen;
+          }

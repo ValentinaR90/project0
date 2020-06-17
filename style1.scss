@@ -1,0 +1,19 @@
+$color: violet;
+
+h1 {
+    font-size: 18px;
+    color: $color;
+}
+p {
+    font-size: 15px;
+    color: $color;
+}
+.container {
+  color: blue;
+}
+%message {
+    font-weight: bold;
+}
+.col-sm {
+    @extend %message;
+}
